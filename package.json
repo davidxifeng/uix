@@ -12,11 +12,18 @@
   "dependencies": {
     "@astrojs/check": "^0.3.3",
     "@astrojs/react": "^3.0.7",
+    "@mantine/core": "^7.3.2",
+    "@mantine/hooks": "^7.3.2",
     "@types/react": "^18.2.45",
     "@types/react-dom": "^18.2.18",
     "astro": "^4.0.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.32",
+    "postcss-preset-mantine": "^1.11.1",
+    "postcss-simple-vars": "^7.0.1"
   }
 }

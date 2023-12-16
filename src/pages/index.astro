@@ -1,5 +1,6 @@
 ---
-import { Demo } from "../components/Card.tsx";
+import { ReactRoot } from "../components/ReactRoot.tsx";
+import "@mantine/core/styles.css";
 ---
 
 <html lang="en">
@@ -12,6 +13,6 @@ import { Demo } from "../components/Card.tsx";
   </head>
   <body>
     <h1>Astro</h1>
-    <Demo />
+    <ReactRoot client:load />
   </body>
 </html>
