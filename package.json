@@ -12,6 +12,7 @@
   "dependencies": {
     "@astrojs/check": "^0.3.3",
     "@astrojs/react": "^3.0.7",
+    "@astrojs/tailwind": "^5.0.3",
     "@mantine/carousel": "^7.3.2",
     "@mantine/code-highlight": "^7.3.2",
     "@mantine/core": "^7.3.2",
@@ -31,9 +32,11 @@
     "embla-carousel-react": "^7.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "tailwindcss": "^3.3.6",
     "typescript": "^5.3.3"
   },
   "devDependencies": {
+    "daisyui": "^4.4.20",
     "postcss": "^8.4.32",
     "postcss-preset-mantine": "^1.11.1",
     "postcss-simple-vars": "^7.0.1"
