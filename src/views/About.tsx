@@ -1,7 +1,9 @@
 // index.jsx
-import * as React from 'react';
+import '@radix-ui/themes/styles.css';
 import { ThickArrowUpIcon } from '@radix-ui/react-icons';
 import * as Popover from '@radix-ui/react-popover';
+import { Flex, Text, Button, Theme, ThemePanel } from '@radix-ui/themes';
+
 
 const PopoverDemo = () => (
     <Popover.Root>
@@ -26,6 +28,13 @@ const PopoverDemo = () => (
 
 export function ReactRoot() {
     return <>
+        <Theme>
+            <Flex direction="column" gap="2">
+                <Text>Hello from Radix Themes :</Text>
+                <Button>Let's go</Button>
+            </Flex>
+            <ThemePanel />
+        </Theme>
         <button className="btn"> <ThickArrowUpIcon /> hello</button>
         <p></p>
         <PopoverDemo />
